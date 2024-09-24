@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body Styles */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+p{
+    color: #fff;
+    font-family: Times New Roman,serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  width: 440px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.1);     
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px,0,0,0;
+}
+
+/* Button Styles */
+button h4{
+    color: #000000;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 600;
+}
+
+button {
+  width: 100%;
+  height: 41px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+/* Message Styles */
+#message {
+    margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
